@@ -1,0 +1,35 @@
+{
+  "name": "yahoo-nasdaq",
+  "version": "1.0.0",
+  "description": "Library to get option quotes from Yahoo Finance and nasdaq100.",
+  "main": "yahoo-nasdaq.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardlevano/yahoo-nasdaq.git"
+  },
+  "keywords": [
+    "yahoo",
+    "finance",
+    "nasdaq",
+    "stocks",
+    "quotes",
+    "download",
+    "historical"
+  ],
+  "author": "Ricardo Levano <rlevano77@gmail.com> (https://github.com/richardlevano)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardlevano/yahoo-nasdaq/issues"
+  },
+  "homepage": "https://github.com/richardlevano/yahoo-nasdaq#readme",
+  "dependencies": {
+    "csvtojson": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
